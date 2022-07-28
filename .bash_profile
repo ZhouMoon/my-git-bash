@@ -4,7 +4,7 @@ alias bashconfig='code /etc/profile.d/git-prompt.sh'
 alias gitconfig='code ~/.gitconfig'
 
 alias l='ls -al'
-alias cmd='cmd.exe'
+alias cmd='powershell'
 alias ,='cd -'
 alias .='cd ~'
 alias ..='cd ..'
@@ -42,7 +42,4 @@ alias ta='tmux a'
 alias mwsl='winpty wsl'
 alias mysql='winpty mysql -uroot -p'
 
-# LazyGit 
-alias lg='/d/Scoop/apps/lazygit/0.35/lazygit.exe'
-# Scoop
-alias scoop='/d/Scoop/shims/scoop'
+alias lg='/d/Scoop/apps/lazygit/current/lazygit.exe'
