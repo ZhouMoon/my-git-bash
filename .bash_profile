@@ -41,3 +41,5 @@ alias ta='tmux a'
 
 alias mwsl='winpty wsl'
 alias mysql='winpty mysql -uroot -p'
+
+alias lg='/d/Scoop/apps/lazygit/0.35/lazygit.exe'
