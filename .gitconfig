@@ -1,21 +1,26 @@
+[safe]
+	directory = *
+[credential "https://codeup.aliyun.com"]
+	provider = generic
 [user]
-	email = xnng77@gmail.com
-	name = xnng
-[http]
-	proxy = socks5://127.0.0.1:1080
-[https]
-	proxy = socks5://127.0.0.1:1080
+	name = ZhouMoon
+	email = 951176226@qq.com
+[credential "https://github.com"]
+	provider = generic
+[user]
+	name = ZhouMoon
+	email = 951176226@qq.com
 [core]
-	quotepath = false
-[gui]
-	encoding = utf-8
-[i18n "commit"]
-	encoding = utf-8
-[i18n]
-	logoutputencoding = utf-8
-
-[color]
-	diff = auto
-	status = auto
-	branch = auto
-	interactive = true
+	fsmonitor = true
+[credential "https://gitee.com"]
+	provider = generic
+[http]
+	proxy = http://127.0.0.1:19527
+[https]
+	proxy = http://127.0.0.1:19527
+# 默认分支
+[init]
+    defaultBranch = main
+# 输出颜色
+[color]  
+    ui = true  
