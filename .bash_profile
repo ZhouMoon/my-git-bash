@@ -28,7 +28,7 @@ alias sysoff='shutdown -s -t 0'
 alias sysre='shutdown -r -t 0'
 
 alias host='code /c/Windows/System32/drivers/etc/hosts'
-alias ep='start .'
+alias eo='start .'
 alias c='code . && exit'
 
 alias utf8='sed -i 's/GBK/UTF-8/' ~/.minttyrc'
